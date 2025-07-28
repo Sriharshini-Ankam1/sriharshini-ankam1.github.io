@@ -1,73 +1,117 @@
+---
+title: Sriharshini Ankam | Data Analyst Portfolio
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sriharshini Ankam | Data Analyst Portfolio</title>
+  <title>Sriharshini Ankam | Data Analyst</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      color: #fff;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('background.jpg') no-repeat center center/cover;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      background-size: cover;
+      background-attachment: fixed;
       text-align: center;
     }
-    .profile-img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      border: 4px solid #fff;
-      object-fit: cover;
-      margin-bottom: 20px;
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-      max-width: 600px;
-    }
-    a.button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #0077b5;
+    nav a {
+      margin: 0 15px;
       color: white;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 6px;
-      transition: background-color 0.3s ease;
+      font-size: 1rem;
     }
-    a.button:hover {
-      background-color: #005f8d;
+    .hero {
+      padding: 4rem 1rem;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 1rem 0 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    .button-group {
+      margin-top: 2rem;
+    }
+    .button {
+      padding: 0.8rem 1.5rem;
+      margin: 0.5rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    .social-icons {
+      margin-top: 2rem;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: white;
     }
     footer {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
+      margin-top: 4rem;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: #ccc;
+      background-color: rgba(0, 0, 0, 0.4);
     }
   </style>
 </head>
 <body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
   <img src="profile.jpg" alt="Sriharshini Ankam" class="profile-img" />
   <h1>Hi, I'm Sriharshini Ankam</h1>
-  <p>
-    Data Analyst passionate about transforming data into insights.<br />
-    Skilled in Power BI, SQL, Python, Azure, and Visualization.
-  </p>
-  <a class="button" href="https://www.linkedin.com/in/sriharshini-ankam-64a29a177/" target="_blank">Connect on LinkedIn</a>
-  <footer>
-    &copy; 2025 Sriharshini Ankam | Powered by GitHub Pages
-  </footer>
+  <p>Data Analyst passionate about transforming data into insights.<br>
+     Skilled in Power BI, SQL, Python, Azure, and Visualization.</p>
+
+  <div class="button-group">
+    <a class="button" href="mailto:sriharshinainkam1@gmail.com">Hire Me</a>
+    <a class="button" href="Sriharshini_Ankam_CV.pdf" download>Download CV</a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/sriharshini-ankam-64a29a177/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Sriharshini-Ankam1" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:sriharshinainkam1@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Sriharshini Ankam | Powered by GitHub Pages
+</footer>
+
 </body>
 </html>
