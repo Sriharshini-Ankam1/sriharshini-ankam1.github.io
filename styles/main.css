@@ -7355,7 +7355,7 @@ a.credit {
 /* Scrolling content with animation */
 .auto-scroll {
   display: flex;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 30s linear infinite;
   white-space: nowrap;
 }
 
