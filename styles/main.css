@@ -7323,4 +7323,24 @@ a.credit {
   font-weight: 600;
 }
 
+.scrolling-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.cert-card {
+  min-width: 280px;
+  max-width: 280px;
+  margin-right: 1rem;
+  display: inline-block;
+  white-space: normal;
+}
 
